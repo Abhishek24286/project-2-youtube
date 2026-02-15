@@ -1,3 +1,6 @@
+
+
+
 p{
     margin-top:0px;
     margin-bottom:0px;
@@ -5,8 +8,14 @@ p{
 }
 body{
     margin:0px;
-    padding-top:80px;
-   padding-left:85px;
+    padding-top:70px;
+   padding-left:75px;
    background-color:rgb(252, 240, 240);
    padding-right:15px;
+}
+@media (max-width:650px){
+    body{
+        padding-left:10px;
+        padding-right:10px;
+    }
 }
