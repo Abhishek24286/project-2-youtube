@@ -1,0 +1,43 @@
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+    left:0;
+   bottom:0;
+   top:55px;
+   background-color:white;
+   
+   
+   z-index: 100;
+   
+  align-items: center;
+   border-right-style:solid;
+   border-right-color:rgb(218, 209, 209);
+   border-right-width:1px;
+   
+}
+.search-image3{
+   height:70px;
+   width:70px;
+ 
+   margin-bottom:10px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+    
+}
+.search-image3:hover{
+    background-color:rgb(240, 237, 237);
+}
+.search-image3 img{
+     height:26px;
+    
+}
+.icon-name{
+    font-family:Roboto;
+    font-size:10px;
+}
+
+    
+

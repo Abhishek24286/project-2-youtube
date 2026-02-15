@@ -1,0 +1,153 @@
+.header{
+    height:55px;
+    display:flex;
+    flex-direction:row;
+   position:fixed;
+   background-color:white;
+   right:0px;
+   left:0px;
+   top:0px;
+   border-bottom-style:solid;
+   border-bottom-width:1px;
+   border-bottom-color:rgb(218, 209, 209);
+   z-index:100;
+   
+
+   
+}
+.left-section{
+    width:200px;
+    display:flex;
+    
+    align-items: center;
+    flex-shrink:0;
+}
+.right-section{
+   width: 240px;
+   
+   display:flex;
+   align-items:center;
+   justify-content: space-evenly;
+   flex-shrink:0;
+   position:relative;
+}
+.count{
+    font-family:arial;
+    font-size:12px;
+    width:15px;
+    height:15px;
+     padding-left:7px;
+     padding-top:5px;
+    background-color:rgb(194, 9, 9);
+    color:white;
+     border-radius:10px;
+     position:absolute;
+     right:76px;
+     top:10px;
+   
+}
+.middle-section{
+    display:flex;
+    align-items:center;
+     flex:1;
+     flex-shrink:0;
+   
+}
+.youtube-logo{
+    height:21px;
+}
+.menu-icon{
+    width:28px;
+    margin-left:24px;
+    margin-right:24px;
+}
+
+.search-class{
+    height:34px;
+    flex:1;
+    
+    border-width:1px;
+    border-style:solid;
+    border-radius:1px;
+    border-color:rgb(192, 192, 192);
+    box-shadow:insert 1px 2px 5px rgba(0,0,0, 0.15);
+    width:0;
+   
+}
+.search-class::placeholder{
+    width:70px;
+    font-size:17px;
+    background-color:#FFFFFF;
+    font-family:Roboto;
+    padding-left:8px;
+    
+   
+}
+.search-button{
+    display:flex;
+    
+    align-items:center;
+    justify-content: center;
+    width:50px;
+    background-color:rgb(240,240,240);
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(192, 192, 192);
+    margin-left:-1px;
+     height:38px;
+}
+.search-image{
+    height:30px;
+    
+}
+.voice-search-button{
+    height:40px;
+    width:40px;
+    display:flex;
+    align-items:center;
+    margin-left:8px;
+    border-radius:25px;
+    justify-content:center;
+    border:none;
+    background-color:rgb(240,240,240);
+}
+.upload-spg{
+    height:26px;
+}
+.youtube-apps-spg{
+    height:27px;
+}
+.notifications{
+    height:27px;
+}
+.unnamed{
+    height:30px;
+    border-radius:15px;
+}
+@media (max-width:550px){
+    .right-section{
+        width:100px;
+        margin-left:10px;
+    }
+    .youtube-app-spg{
+        display:none;
+    }
+    .upload-spg{
+    display:none;
+}
+.notifications{
+    display:none;
+}
+.count{
+    display:none;
+}
+.left-section{
+    width:unset;
+    padding-left:10px;
+    margin-right:20px;
+}
+.menu-icon{
+    display:none;
+}
+}
+
