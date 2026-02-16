@@ -6,6 +6,44 @@ p{
     margin-bottom:0px;
     font-family:Roboto;
 }
+.sidebar-container4 {
+  background-color: black;
+}
+.sidebar-container4 div:hover{
+   background-color:rgb(42, 37, 37);
+   cursor:pointer;
+}
+
+.sidebar-container4 img{
+  filter:invert(1);
+}
+
+
+
+.header4 {
+  background-color: black;
+}
+.header4 input{
+    filter:invert(1);
+}
+.header4 img {
+  filter: invert(1);
+}
+
+.background-color button {
+ background-color:transparent;
+ border:solid;
+ color:white;
+ border:none;
+
+}
+
+.background-color {
+  background-color: black;
+  color: white;
+  font-family:Arial;
+
+}
 body{
     margin:0px;
     padding-top:70px;
@@ -17,5 +55,6 @@ body{
     body{
         padding-left:10px;
         padding-right:10px;
+  
     }
 }
