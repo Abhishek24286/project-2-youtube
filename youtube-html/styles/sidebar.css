@@ -90,6 +90,11 @@ body{
  }  
 .image-2{
     height:30px;
+   
+}
+.common{
+  filter:brightness(0);
+  
 }
 .icon-name-4{
     margin-left:5px;
@@ -98,6 +103,17 @@ body{
     font-weight:bold;
     overflow: hidden;
 }
+.js-theme-selector{
+    border:none;
+    background-color:transparent;
+    color:black;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    margin-left:5px;
+}
+
+
 
 
 

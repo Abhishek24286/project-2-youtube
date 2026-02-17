@@ -25,9 +25,6 @@
         grid-template-columns:1fr ;
     }
 }
-    
-
-
 .main-container{
   margin-bottom:40px;
 }
@@ -39,8 +36,6 @@
 .logo{
     width:100%;
     border-radius:45px;
-   
-    
 }
 .logo-div3{
     position:relative;
@@ -59,26 +54,16 @@
     bottom:10px;
     right:4px;
 }
-
 .title-div{
     
     margin-left:12px;
     }
-
-
-
 .second-container{
    
    margin-top:12px;
    display:grid;
    grid-template-columns: 50px 1fr;
-  
-
 }
-
-   
-
-
 .p1{
     font-weight:bold;
     
