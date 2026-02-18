@@ -1,67 +1,75 @@
-
-
-
-p{
-  margin-top:0px;
-  margin-bottom:0px;
-  font-family:Roboto;
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto;
 }
+
 .sidebar-container4 {
   background-color: black;
 }
-.sidebar-container4 div:hover{
-  background-color:rgb(42, 37, 37);
-  cursor:pointer;
+
+.sidebar-container4 div:hover {
+  background-color: rgb(42, 37, 37);
+  cursor: pointer;
 }
-.sidebar-container4 img{
-  filter:invert(1);
+
+.sidebar-container4 img {
+  filter: invert(1);
 }
+
 .header4 {
   background-color: black;
-  border-bottom-color:rgb(28, 27, 27);
+  border-bottom-color: rgb(28, 27, 27);
 }
-.header4 input{
-filter:invert(1);
+
+.header4 input {
+  filter: invert(1);
 
 
 }
+
 .header4 img {
-filter: invert(1);
+  filter: invert(1);
 }
 
 
 .header4 button {
-background-color:black;
+  background-color: black;
 }
-.js-sidebar img{
-filter:invert(1);
+
+.js-sidebar img {
+  filter: invert(1);
 }
-.js-sidebar{
-background-color:black;
-border-right-color:rgb(28, 27, 27);
+
+.js-sidebar {
+  background-color: black;
+  border-right-color: rgb(28, 27, 27);
 }
-.js-sidebar .search-image3:hover{
-background-color:rgb(47, 47, 47);
+
+.js-sidebar .search-image3:hover {
+  background-color: rgb(47, 47, 47);
 }
 
 
 .background-color {
-background-color: black;
-color: white;
-font-family:Arial;
+  background-color: black;
+  color: white;
+  font-family: Arial;
 
 }
-body{
-margin:0px;
-padding-top:70px;
-padding-left:75px;
-background-color:rgb(252, 240, 240);
-padding-right:15px;
-}
-@media (max-width:650px){
-body{
-padding-left:10px;
-padding-right:10px;
 
+body {
+  margin: 0px;
+  padding-top: 70px;
+  padding-left: 75px;
+  background-color: rgb(252, 240, 240);
+  padding-right: 15px;
 }
+
+@media (max-width:650px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
 }
