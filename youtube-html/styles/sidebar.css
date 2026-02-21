@@ -97,6 +97,7 @@ body {
 .search-image4:hover {
     background-color: rgb(215, 213, 213);
     border: none;
+    cursor:pointer;
     border-radius: 7px;
 }
 
@@ -105,10 +106,6 @@ body {
 
 }
 
-.common {
-    filter: brightness(0);
-
-}
 
 .icon-name-4 {
     margin-left: 5px;
@@ -116,14 +113,8 @@ body {
     font-family: Arial;
     font-weight: bold;
     overflow: hidden;
+    
 }
 
-.js-theme-selector {
-    border: none;
-    background-color: transparent;
-    color: black;
-    font-family: Arial;
-    font-size: 17px;
-    font-weight: bold;
-    margin-left: 5px;
-}
+
+

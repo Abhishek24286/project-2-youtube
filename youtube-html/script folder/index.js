@@ -3,15 +3,26 @@ import{generateHtml} from './html-generate.js';
  
  
   generateHtml();
-const element=document.querySelector('.js-menu-icon');
 
-element.addEventListener('click',()=>{
-     document.querySelector('.sidebar-container').classList.toggle("sidebar-container5");
-    
-     darkMode();
+const button = document.querySelector('.js-menu-icon');
+const sidebar = document.querySelector('.sidebar-container');
+
+button.addEventListener('click', (e) => {
+  e.stopPropagation(); 
+  sidebar.classList.toggle("sidebar-container5");
+  darkMode();
 });
 
 
+sidebar.addEventListener('click', (e) => {
+  e.stopPropagation();
+});
+
+
+document.body.addEventListener('click', (e) => {
+  sidebar.classList.remove("sidebar-container5");
+  
+});
 
 
 let i=1;
