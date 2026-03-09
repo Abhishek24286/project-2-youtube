@@ -148,13 +148,13 @@
 
 @media (max-width:500px) {
     .search-class {
-        width: 0px;
+        width: unset;
         display: none;
     }
 
     .search-button {
         width: 40px;
-        border-radius: 20px;
+        border-radius:20px;
     }
 
     .search-button-js {
@@ -182,4 +182,23 @@
     .js-menu-icon-run {
         display: none;
     }
+    .left-section{
+        width:unset;
+        display:flex;
+        align-items:center;
+    }
+    .youtube-logo{
+        height:18px;
+
+    }
+     
+  .menu-icon {
+     display:none;
+  }
+  .middle-section{
+   margin-right:0;
+  }
+  .right-section{
+    width:130px;
+  }
 }
