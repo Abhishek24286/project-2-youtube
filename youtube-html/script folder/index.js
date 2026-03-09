@@ -1,5 +1,6 @@
 import{darkMode} from '../script folder/dark-mode.js';
 import{generateHtml} from './html-generate.js';
+import{container} from '../script folder/containerData.js';
  
  
   generateHtml();
@@ -40,5 +41,25 @@ SearchElement.addEventListener('click',()=>{
       document.querySelector('.js-menu-icon').classList.toggle("js-menu-icon-run");
    });
               
+ const searchInput = document.querySelector('.search-class');
+const productsContainer = document.querySelectorAll('.main-container');
 
+searchInput.addEventListener('keyup', () => {
+
+  const searchValue = searchInput.value.toLowerCase();
+  console.log(searchValue);
+
+  container.forEach((product, index) => {
+
+    const keywordString = product.keywords.join(" ").toLowerCase();
+
+    if (keywordString.includes(searchValue)) {
+      productsContainer[index].style.display = "block";
+    } else {
+      productsContainer[index].style.display = "none";
+    }
+
+  });
+
+});
                   
