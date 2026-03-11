@@ -82,6 +82,7 @@
     border-color: rgb(192, 192, 192);
     box-shadow: insert 1px 2px 5px rgba(0, 0, 0, 0.15);
     width: 0;
+    font-family:Arial;
 
 }
 
@@ -91,6 +92,7 @@
     background-color: #FFFFFF;
     font-family: Roboto;
     padding-left: 8px;
+    margin-left:5px;
 
 
 }
